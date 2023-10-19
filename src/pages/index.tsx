@@ -76,9 +76,10 @@ const Index = () => {
               className="block text-gray-700 text-sm font-bold mb-2"
               htmlFor="imgFile"
             >
-              Image
+              Image *
             </label>
             <input
+required 
               name="imgFile"
               type="file"
               className="file-input file-input-bordered file-input-info w-full max-w-xs"
