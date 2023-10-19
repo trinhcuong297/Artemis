@@ -3,10 +3,11 @@ import { AppProps } from 'next/app';
 import Footer from '../component/footer';
 // import Navbar from '../component/navbar';
 import '../styles/global.css';
+import Navbar from '../component/navbar';
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
   <>
-    {/* <Navbar /> */}
+    <Navbar />
     <Component {...pageProps} />
     <Footer />
   </>

@@ -2,12 +2,6 @@ export default function Footer() {
   return (
     <>
       <footer aria-label="Site Footer" className="bg-gray-900 text-center">
-        <div className="w-full flex justify-center">
-          <h1 className="m-8 text-6xl text-gray-500 font-bold">
-            Not the end...{' '}
-            <span className="text-red-500">Because I love you forever</span>
-          </h1>
-        </div>
         <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl space-y-6">
             <nav
@@ -61,7 +55,7 @@ export default function Footer() {
             </nav>
 
             <p className="mx-auto max-w-lg text-xs text-gray-500">
-              This web was created to storage our love
+              This web was created to help my love. Love you!!!!
               <span className="mt-4 block"> &copy; 2022 Trinh Cao Cuong </span>
             </p>
           </div>

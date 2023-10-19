@@ -9,7 +9,10 @@ export default function Navbar() {
       <div className="navbar bg-gray-900/75 m-1 mt-2 md:mx-8 rounded-lg">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="text-gray-100 btn btn-ghost btn-circle">
+            <label
+              tabIndex={0}
+              className="text-gray-100 btn btn-ghost btn-circle"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -33,10 +36,10 @@ export default function Navbar() {
                 <Link href="/">Homepage</Link>
               </li>
               <li>
-                <Link href="/">Our story</Link>
+                <Link href="/search">Search</Link>
               </li>
               <li>
-                <Link href="/">Gallery</Link>
+                <Link href="/all">All</Link>
               </li>
             </ul>
           </div>
