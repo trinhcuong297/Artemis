@@ -1,7 +1,13 @@
-import { FormEvent, useState } from 'react';
+import { FormEvent, useState, useEffect } from 'react';
 
 const Index = () => {
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    fetch('https://es3i.onrender.com/', {
+      method: 'GET',
+    });
+  }, []);
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
